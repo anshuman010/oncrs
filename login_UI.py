@@ -1,12 +1,13 @@
 from tkinter import *
 import back
 
+#calling functions to create database tables
 back.create()
 back.createadmin()
 
 
 
-
+#admin login window
 def admin():
 
     root= Tk()
@@ -38,6 +39,7 @@ def admin():
 
 
     root.mainloop()
+#user login window
 def userlogin():
     root = Tk()
     root.geometry("400x600+450+100")
@@ -64,8 +66,9 @@ def userlogin():
 
     login.place(x=80, y=350)
 
+    
+    #ui
 def index():
-
     win=Tk()
     title=win.title("hello")
     win.geometry("900x600+300+100")
