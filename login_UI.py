@@ -71,7 +71,7 @@ def index():
     win.geometry("900x600+300+100")
     win.resizable(0, 0)
     win.title("oncrs")
-    bg = PhotoImage(file="images/background.gif")
+    bg = PhotoImage(file="background.gif")
     Label(win, image=bg).grid(row=0, column=0, rowspan=20, columnspan=20)
     Label(win, text='Welcome', font='Helvetica 18 ', fg='white', bg='#34383C').place(x=50, y=230)
     Label(win, text=' online Criminal REPORTING System', font='Helvetica 12 ', fg='white', bg='#34383C').place(x=50, y=260)
